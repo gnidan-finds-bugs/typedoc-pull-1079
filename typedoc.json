@@ -1,0 +1,7 @@
+{
+  "name": "bug demo",
+  "mode": "modules",
+  "tsconfig": "tsconfig.json",
+  "out": "docs",
+  "theme": "default"
+}

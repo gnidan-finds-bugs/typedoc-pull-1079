@@ -1,0 +1,12 @@
+{
+  "name": "@gnd/typedoc-pull-1079",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@gnd/typedoc": "^0.15.0-0"
+  },
+  "scripts": {
+    "docs-with-exports": "rm -rf docs && typedoc ./lib/index.ts",
+    "docs-no-exports": "rm -rf docs && typedoc ./lib/index.ts --excludeNotExported"
+  }
+}
